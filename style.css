@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+header{
+    display: flex;
+    height: 70px;
+    line-height: 70px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0,.9);
+}
+header label{
+    font-size: 25px;
+    font-weight: 700;
+}
+header a{
+    color: white;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+header ul li:first-child a{
+    font-weight: 600;
+}
+header ul li a:hover{
+    text-decoration: underline;
+}
+header button{
+    padding: 12px 25px;
+    border-radius: 24px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+header button:hover{
+    background-color: white;
+    color: black;
+}
+/* Social kit */
+.social_box {
+    position: absolute;
+    right: 0;
+    margin-top: 250px;
+    z-index: 1;
+}
+.social_box ul li {
+    list-style: none;
+    background-color: black;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 4px;
+    padding: 9px 16px;
+}
+.social_box li a i{
+    font-size: 22px;
+    color: white;
+}
+/* Home */
+.home{
+    height: 100vh;
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.home .home_con{
+    width: 78vw;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.home .home_con h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.home .home_con p{
+    padding: 16px 0;
+}
+.home .home_con button{
+    padding: 13px 29px;
+    border-radius: 24px;
+    background-color: white;
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.home .home_con button:hover{
+    transition-duration: 1s;
+    background-color: transparent;
+    border-color: black;
+}
+/* Clients */
+.clients {
+    text-align: center;
+    padding: 85px 0;
+    background-color: black;
+}
+.clients h1 {
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.clients p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.clients .client {
+    margin-top: 30px;
+    padding: 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.clients .client div {
+    padding: 40px 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+.clients .client div p {
+    padding-top: 16px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.clients .client div h4 {
+    font-weight: 600;
+    color: white;
+}
+.clients .client div span i {
+    font-weight: 600;
+    padding-right: 6px;
+    color: #ffd32a;
+    font-size: 20px;
+}
+.client img{
+    filter: brightness(1.3);
+}
+/* Features */
+.features{
+    padding: 155px 0;
+    background-color: #F9FAFB;
+}
+.features .features_div{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.features .features_div .feature_large{
+    background-color: rgba(223, 239, 255, 0.1);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px -1px, rgba(0, 0, 0, 0.6) 0px 2px 6px -1px;
+    height: 270px;
+    width: 300px;
+    padding: 25px 15px;
+    border-radius: 14px;
+}
+.features .features_div .feature_large1{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #55a3f0 0%, #dab0ff 100%);
+}
+.features .features_div .feature_large .feature_large-icon i{
+    color: white;
+    font-size: 45px;
+    color: black;
+    margin-bottom: 15px;
+}
+.features .features_div .feature_large h1{
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 40px;
+}
+.features .features_div .feature_large p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+/* Features 2 */
+.features2{
+    background-color: white;
+    padding: 80px 0;
+}
+.features2 .title_text{
+    font-size: 49px;
+}
+.features2 .para_text{
+    margin-top: 0;
+    padding-top: 10px;
+}
+.features2 .title_text, .features2 .para_text{
+    padding-left: 185px;
+    text-align: left;
+}
+.features2 .feature_small{
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.features2 .feature_small_content{
+    margin-bottom: 22px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.features2 .feature_small_content .feature_small_left{
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 35px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #389cff 0%, #e1c0ff 100%);
+}
+.features2 .feature_small_content .feature_small_left i{
+    padding: 21px;
+    color: white;
+}
+.features2 .feature_small_content h1{
+    font-size: 16px;
+    font-weight: 600;
+    /* color: white; */
+    padding-left: 30px;
+}
+.features2 .feature_small_content p{
+    font-size: 15px;
+    font-weight: 400;
+    /* color: white; */
+    position: absolute;
+    margin-left: 364px;
+    padding-left: 30px;
+    /* border-left: 2px solid black; */
+}
+/* Portfolio */
+.portfolio{
+    height: 100vh;
+    background-color: #f0f6ff;
+}
+.portfolio .port_text{
+    width: 78vw;
+    margin: 0 auto;
+}
+.portfolio .port_text h1{
+    padding-top: 70px;
+    font-size: 52px;
+    font-weight: 700;
+}
+.portfolio .port_text p{
+    padding: 15px 0;
+}
+.portfolio .port{
+    display: flex;
+    padding: 0 40px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.portfolio .port .port_item{
+    width: 377px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 45px;
+    border-radius: 15px;
+}
+.portfolio .port .port_item .port_top{
+    width: 100%;
+    height: 230px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
+.portfolio .port .port_item:nth-child(1)  .port_top{
+    background-image: url(https://proest.com/wp-content/uploads/2022/11/Building-Construction-Process-From-Start-To-Finish.jpg);
+}
+.portfolio .port .port_item:nth-child(2)  .port_top{
+    background-image: url(https://www.procore.com/library/wp-content/uploads/2023/03/10-Types-of-Construction-Companies-What-They-Do-Procore-Blog-Hero.png);
+}
+.portfolio .port .port_item:nth-child(3)  .port_top{
+    background-image: url(https://www.careersportal.co.za/sites/default/files/images/Sakinah%20Samuels/construction-jobs.jpg);
+}
+.portfolio .port .port_item .port_text{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.portfolio .port .port_item .port_text h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.portfolio .port .port_item .port_text p{
+    font-size: 16px;
+}
+.portfolio .port .port_item .port_bottom{
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.portfolio .port .port_item .port_bottom h4{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 15px;
+}
+.portfolio .port .port_item button{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25px;
+    border-radius: 40px;
+    padding: 12px 0;
+    font-size: 16px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.portfolio .port .port_item button:hover{
+    background-color: black;
+    color: white;
+}
